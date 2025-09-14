@@ -121,9 +121,9 @@
 }
 
 .navBtn {
-  padding: 15px;
+  padding: 1.5rem;
   border-radius: 12px;
-  background: #a3a2cc;
+  background: #4caf50;
   cursor: pointer;
   border: 1px solid #aaa;
   width: 250px;
