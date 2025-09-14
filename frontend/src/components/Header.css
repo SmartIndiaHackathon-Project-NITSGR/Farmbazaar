@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #242a5d; /* earthy green */
-  color: white;
+  background: #c9e7cb; 
+  color: #222;
   padding: 15px 30px;
   position: sticky;
   top: 0;
   z-index: 1000;
-  margin-bottom: 10px;
-  box-shadow: 1px 1px 10px hsl(218, 86%, 84%);
+  /* margin-bottom: 10px; */
+  /* box-shadow: 1px 1px 10px hsl(218, 86%, 84%); */
 }
 
 .header__logo {
@@ -21,29 +21,33 @@
 .header__nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: white;
-  font-weight: 500;
+  font-weight: 700;
   transition: 0.1s;
 }
 
-.header__nav a:hover, 
-.header__logo:hover {
-  color: #b0e3ff; /* warm yellow highlight */
+.links{
+  color:#555;
+}
+
+.links:hover {
+  color: #2e6930; 
 }
 
 .login-btn,
 .logout-btn {
-  background: rgb(75, 98, 157);
-  color: #ffffff;
-  padding: 6px 12px;
+  background: #3d8c40;
+  color: #ffffffd3;
+  padding: 6px 15px;
+  border: 2px solid #3d8c40;
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
-  border: none;
 }
 
 .login-btn:hover,
 .logout-btn:hover {
-  background: #3a4a95;
-  color: #000790;
+  background: #c9e7cb;
+  color: #444;
+  border: 2px solid #0f2310;
+  transition: 0.5s;
 }

@@ -32,13 +32,13 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header__logo" onClick={() => navigate("/")}>
-        🌱 EasFarm
+        🌱 Farm Bazaar
       </div>
 
       <nav className="header__nav">
-        <Link to="/">Home</Link>
-        <Link to="/about">About Us</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/" className="links">Home</Link>
+        <Link to="/about" className="links">About Us</Link>
+        <Link to="/contact" className="links">Contact</Link>
 
         {isLoggedIn ? (
           <button onClick={handleLogout} className="logout-btn">

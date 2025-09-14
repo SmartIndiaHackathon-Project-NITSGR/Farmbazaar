@@ -3,7 +3,7 @@
 .home-container {
   padding: 20px;
   /* min-height: 100vh; */
-  background-color: rgb(255, 255, 255);
+  background-color:#c9e7cb;
   display: flex;
   flex-direction: column;
 }
@@ -13,12 +13,12 @@
   text-align: center;
   color: rgb(7, 3, 40);
   text-shadow: 2px 1px 5px hsl(220, 27%, 94%);
-  font-size: 40px;
+  font-size: 4rem;
   font-style: oblique;
 }
 
 .home-card {
-  margin-top: 20px;
+  margin-top: 2rem;
   
 }
 
@@ -101,6 +101,17 @@
   text-align: center;
   margin: 10px 0;
   font-family: cursive;
+}
+
+.notlog-welcome2 {
+  text-align: center;
+  margin: 1rem 0;
+  /* font-family: cursive; */
+}
+
+.notlog-p{
+    font-weight: 500;
+    margin: 2rem auto;
 }
 
 .twoBtn {

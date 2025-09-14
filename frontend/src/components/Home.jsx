@@ -159,10 +159,10 @@ export default function Home() {
 
           {!isLoggedIn && (
             <div className="notlog-div">
-              <h1 className="notlog-welcome" style={{color:"#640D5F"}}>Hey Farmer! Welcome to EasFarm</h1>
-              <h3 className="notlog-welcome" style={{color:"#5e0359ff"}}>Choose your role and Get your connection today</h3> <br /><br />
+              <h1 className="notlog-welcome" style={{color:"#3f3f3f"}}>Hey Farmer! Welcome to EasFarm</h1>
+              <h3 className="notlog-welcome2" style={{color:"#265828"}}>Choose your role and Get your connection today</h3> 
 
-              <p className="notlog-welcome">
+              <p className="notlog-welcome2 notlog-p">
                 Dear Farmer,<br />Make your connection today
               </p>
               <div className="twoBtn">
